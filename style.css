@@ -1,0 +1,38 @@
+html {
+  background-color: #2C3E50;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #2C3E50;
+  color: white;
+}
+main {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+
+header {
+  text-align: center;
+  background-color: #18BC9C;
+  padding: 20px;
+}
+
+form {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form input {
+    color: #2C3E50;
+}
+
+button {
+    color: #2C3E50;
+}

@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Find Local Farmers Markets</title>
+  <title>MarketFindr</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Farmers Market Search</h1>
-  <form>
-    Zip Code:<br>
-    <input type="text" name="zipcode" id="zipcode">
-    <button type="submit" id="submit">search</button>
-  </form>
-  <h2 id="results"></h2>
-  <ul id="markets"></ul>
+  <header>
+    <h1>Farmers Market Finder</h1>
+  </header>
+  <main>
+    <form>
+      Zip Code:
+      <input type="text" name="zipcode" id="zipcode">
+      <button type="submit" id="submit">search</button>
+    </form>
+    <ul id="markets"></ul>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
   </body>
 </html>
