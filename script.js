@@ -10,7 +10,7 @@ $(document).ready(function(){
       $.ajax({
         type: "GET",
         contentType: "application/json; charset=utf-8",
-        url: "http://search.ams.usda.gov/farmersmarkets/v1/data.svc/zipSearch?zip=" + zip,
+        url: "https://search.ams.usda.gov/farmersmarkets/v1/data.svc/zipSearch?zip=" + zip,
         dataType: 'jsonp'
         })
         .done(function(data){
@@ -20,7 +20,7 @@ $(document).ready(function(){
             $.ajax({
               type: "GET",
               contentType: "application/json; charset=utf-8",
-              url: "http://search.ams.usda.gov/farmersmarkets/v1/data.svc/mktDetail?id=" + marketId,
+              url: "https://search.ams.usda.gov/farmersmarkets/v1/data.svc/mktDetail?id=" + marketId,
               dataType: 'jsonp'
             }).done(function(market){
               var marketHeaders = $("#markets").append("<h2>" + marketName.substr(marketName.indexOf(' ')+1) + "</h2>");
