@@ -30,9 +30,16 @@ form {
 }
 
 form input {
-    color: #2C3E50;
+  color: #2C3E50;
 }
 
 button {
     color: #2C3E50;
+}
+
+@media only screen and (max-width: 768px) {
+  form input {
+    width: 100%;
+    margin: 10px 0;
+  }
 }
